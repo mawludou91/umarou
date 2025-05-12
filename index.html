@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Treemap Diagram</title>
+</head>
+<body>
+    <div class = "container">
+        <div class = "row">
+            <div class="col">
+            </div>
+            <div class="col-10 text-center infoGraphic">
+              <ul class="nav nav-tabs ">
+                <li class="active"><a data-toggle="tab" href="#home">Movies</a></li>
+                <li><a data-toggle="tab" href="#menu1">Video Games</a></li>
+                <li><a data-toggle="tab" href="#menu2">Kickstarter</a></li>
+              </ul>	  
+              <div class="tab-content ">
+                <div id="home" class="tab-pane fade in active">
+                  <h1 id="title" class="h1">Movie Sales</h1>
+                  <h3 id="description" class="h3">Highest Grossing Movies</h3>
+                  <p id="graph1" class="block-center"></p>
+                </div>
+                <div id="menu1" class="tab-pane fade">
+                  <h1 class="h1">Video Games</h1>
+                  <h3 class="h3">Most Sold Video Games</h3>
+                  <p id="graph2" class="block-center"></p>
+                </div>
+                <div id="menu2" class="tab-pane fade">
+                  <h1 class="h1">Kickstarter</h1>
+                  <h3 class="h3">Most Pledged Kickstarter Campaigns</h3>
+                  <p id="graph3" class="block-center"></p>
+                </div>
+              </div>		
+             <!-- <div class="infoGraphic card">
+                  <div class="card-body">
+                  <h1 id="title" class="card-title h1">Movie Sales</h1>
+                  <h2 id="description" class="card-title h2">Highest Grossing Movies</h2>
+                  <p id="graph" class="card-text block-center"></p>
+                  <a href="" class="btn btn-primary" target="_blank">More Info</a>
+                </div>
+              </div>-->
+            </div>
+            <div class="col">
+            </div>
+          
+        </div><div class = "container">
+            <div class = "row">
+                <div class="col">
+                </div>
+                <div class="col-10 text-center infoGraphic">
+                  <ul class="nav nav-tabs ">
+                    <li class="active"><a data-toggle="tab" href="#home">Movies</a></li>
+                    <li><a data-toggle="tab" href="#menu1">Video Games</a></li>
+                    <li><a data-toggle="tab" href="#menu2">Kickstarter</a></li>
+                  </ul>	  
+                  <div class="tab-content ">
+                    <div id="home" class="tab-pane fade in active">
+                      <h1 id="title" class="h1">Movie Sales</h1>
+                      <h3 id="description" class="h3">Highest Grossing Movies</h3>
+                      <p id="graph1" class="block-center"></p>
+                    </div>
+                    <div id="menu1" class="tab-pane fade">
+                      <h1 class="h1">Video Games</h1>
+                      <h3 class="h3">Most Sold Video Games</h3>
+                      <p id="graph2" class="block-center"></p>
+                    </div>
+                    <div id="menu2" class="tab-pane fade">
+                      <h1 class="h1">Kickstarter</h1>
+                      <h3 class="h3">Most Pledged Kickstarter Campaigns</h3>
+                      <p id="graph3" class="block-center"></p>
+                    </div>
+                  </div>		
+                 <!-- <div class="infoGraphic card">
+                      <div class="card-body">
+                      <h1 id="title" class="card-title h1">Movie Sales</h1>
+                      <h2 id="description" class="card-title h2">Highest Grossing Movies</h2>
+                      <p id="graph" class="card-text block-center"></p>
+                      <a href="" class="btn btn-primary" target="_blank">More Info</a>
+                    </div>
+                  </div>-->
+                </div>
+                <div class="col">
+                </div>
+              
+            </div>
+</body>
+<script src="./script.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
